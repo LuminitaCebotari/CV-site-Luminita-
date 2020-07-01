@@ -1,0 +1,80 @@
+.header {
+    display: flex;
+    width: 100%;
+}
+
+.Menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+   
+}
+
+
+.Name h2 { 
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    /* margin-left: 50px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Name {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    width: fit-content;
+    margin-right: 30px;
+    margin-top: 10px;
+    height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.Menu a {
+ /* width: min-content; */
+}
+
+
+@media only screen and (max-width: 700px) {
+    .Name h2 {
+        
+        font-size: 18px;
+    }
+
+    .buttons {
+        font-size: 12px;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .buttons {
+        font-size: 10px;
+    }
+
+.Name {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+    .Name h2 {
+        
+        font-size: 16px;
+    }
+
+}

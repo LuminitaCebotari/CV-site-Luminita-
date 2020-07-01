@@ -1,0 +1,148 @@
+.EducationPage {
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+    /* background-color: thistle; */
+}
+
+.time-line-img{
+    width: 100px;
+    height: 400px;
+}
+
+.education-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.education-title h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #432AB0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.time-line{
+    margin-left: 15%;
+    
+}
+.time-line-container {
+    display: flex;
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    
+    width: 50%;
+    /* margin-top: 100px; */
+}
+
+.text-descr {
+    height: 100px;
+    margin:10px; 
+    
+}
+.text-descr p{
+    
+    color: #432AB0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.time-line {
+    width: 30%;
+}
+
+.education2020{
+    margin-bottom: 50px;
+    
+}
+
+.education2019{
+    margin-bottom: 50px; 
+   
+}
+
+.title-descr {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.education-content{
+    display: flex;
+    /* margin-top: 10%; */
+}
+
+.skills-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.skills-img{
+    width: 70%;
+
+}
+
+.education-title {
+    margin-bottom: 10%;
+}
+
+
+
+
+
+@media only screen and (max-width: 850px) {
+    .education-title h2{
+        font-size: 20px;
+    }
+
+    .title-descr{
+        font-size: 16px;
+    }
+    
+    .education-text  {
+        font-size: 14px;
+    }
+    
+    .time-line-img{
+        width: 90px;
+        height: 380px;
+    }
+
+    .skills-img{
+        width: 90%;
+    
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .education-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .education-container {
+        width: 100%;
+    }
+
+    .skills-container{
+        width: 100%;
+    }
+    .EducationPage {
+        height: 1300px;
+    }
+
+    .time-line-container{
+        margin-bottom: 30px;
+    }
+
+}
