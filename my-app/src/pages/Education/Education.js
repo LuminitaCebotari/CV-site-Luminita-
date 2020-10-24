@@ -9,10 +9,7 @@ class Education extends Component {
     render() {
         return (
             <div className="EducationPage" id="education">
-                {/* <div className ="education-title">
-                    <h2>Education</h2>
-                    <h2>Web Developemnt Skills</h2>
-                </div> */}
+               
                 <div className="education-content">
                     <div className="education-container">
                         <div className ="education-title">

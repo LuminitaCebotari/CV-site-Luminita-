@@ -1,19 +1,32 @@
-import React, { Component } from "react";
-import "./WorkExperience.css";
+import React, { Component } from 'react';
+import { Map, GoogleApiWrapper } from 'google-maps-react';
 
-class WorkExperience extends Component {
-    state ={}; 
+const mapStyles = {
+  width: `40%`,
+  height: '40%', 
+  marginLeft:"30%",
+  marginTop:"7%"
+  
+  
+  
+};
 
-    render() {
-        return (
-            <div className="WorkExperiencePage" id="workExperience">
-                <h1>WorkExperience</h1>
-            
-
-            </div>
-        )
-    }
-
+export class MapContainer extends Component {
+  render() {
+    return (
+      <Map
+        google={this.props.google}
+        zoom={14}
+        style={mapStyles}
+        initialCenter={{
+         lat: 46.770920,
+         lng: 23.589920
+        }}
+      />
+    );
+  }
 }
 
-export default WorkExperience; 
+export default GoogleApiWrapper({
+  apiKey: `AIzaSyCqNzeCBAtoBkrDNMYHrvNLYrS7rfRBU5w`
+})(MapContainer);

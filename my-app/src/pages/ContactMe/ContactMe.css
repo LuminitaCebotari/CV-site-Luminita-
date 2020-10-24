@@ -1,10 +1,14 @@
+.ContactMePage{
+    height: 118vh;
+}
+
 .ContactMePage {
     background-image:
     
   url("./background-contact.png");
   background-size: 100% 100%;
   width: 100%;
-  height: 100vh;
+  /* height: 100% */
 }
 
 .ContctMeTilte {
@@ -22,6 +26,7 @@
     height: 80%;
     display: flex;
     justify-content: center;
+    margin-top: 5%;
 }
 .socialContainer{
     width: 100%;
@@ -43,11 +48,40 @@ a.social {
     color: #432AB0;
 }
 
+.mail-conatiner {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    /* margin-top: 40%; */
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.emptyContainer {
+    width: 50%;
+    height: 10%;
+}
+
 .mail-tel {
     width: 50%;
-    margin-left: 55%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    
 }
 .mail-tel p{
+    text-align: center;
     color: #432AB0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.google-map {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -22,11 +22,12 @@
 }
 
 .Name {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
+    
 }
 
 .buttons{
@@ -41,8 +42,9 @@
     
 }
 
-.Menu a {
- /* width: min-content; */
+.buttonsContainer {
+    display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -65,7 +67,7 @@
     }
 
 .Name {
-    width: 35%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;

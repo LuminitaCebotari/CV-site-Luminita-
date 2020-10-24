@@ -4,7 +4,7 @@ import NavBar from "./pages/Header/header";
 import Home from "./pages/home/Home";
 import AboutMe from "./pages/AboutMe/AboutMe";
 import Education from "./pages/Education/Education"; 
-import WorkExperience from"./pages/WorkExperience/WorkExperience";
+import MyProjects from "./pages/MyProjects/MyProjects";
 import ContactMe from "./pages/ContactMe/ContactMe";
 
 
@@ -15,11 +15,11 @@ function App() {
   return (
     <div className="App">
       
-        <NavBar />
+        <NavBar /> 
         <Home />
         <AboutMe />
         <Education />
-        {/* <WorkExperience /> */}
+        <MyProjects />
         <ContactMe />
         
       

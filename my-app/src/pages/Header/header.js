@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import Burger from "./Burger";
 import "./header.css"
 
 
@@ -15,52 +16,8 @@ class NavBar extends Component {
           <div className="Name">
             <h2>Luminița Cebotari</h2>
           </div>
-          <div className ="Menu">
           
-            <Link
-            className="buttons"
-            activeClass="active"
-            to="home"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration= {500}>Home</Link>
-
-          
-          
-          <Link
-            className="buttons"
-            activeClass="active"
-            to="aboutMe"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration= {500}>About me </Link>
-          
-          
-          <Link
-            className="buttons"
-            activeClass="active"
-            to="education"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration= {500}>Education </Link>
-          
-        
-          
-          
-          <Link
-            className="buttons"
-            activeClass="active"
-            to="contactMe"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration= {500}>Contact Me </Link>
-         
-          </div>
-          
+          <div className="MenueSection"><Burger /></div>
           
        </div>
        )

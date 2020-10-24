@@ -13,17 +13,17 @@ class Home extends Component {
         return(
             <div className ="content-section" id="home">
 
-            <div className="presentation-section-left">
+               <div className="presentation-section-left">
                
-               <div className = " hello-section">
-                 <h1>Hey. Glad you are here!</h1>
+                  <div className = " hello-section">
+                    <h1>Hey. Glad you are here!</h1>
                </div>
-               <div className="scroll-down-section">
-                 <h2>Keep scrolling for a little about me</h2>
+                  <div className="scroll-down-section">
+                    <h2>Keep scrolling for a little about me</h2>
                </div>
-               <div className="bottom-layout-section">
+                  <div className="bottom-layout-section">
                {/* <img className ="bottom-layout" src = {Dots} alt = "bottom-layout" /> */}
-               <svg width="248" height="30" viewBox="0 0 248 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <svg width="248" height="40" viewBox="0 0 248 60" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="circules " filter="url(#filter0_d)">
 <ellipse id="circle3" cx="216.604" cy="25.597" rx="27.3955" ry="23.403" fill="url(#paint0_linear)"/>
 <ellipse id="circle2" cx="124" cy="25.597" rx="27.3955" ry="23.403" fill="url(#paint1_linear)"/>
@@ -64,8 +64,9 @@ class Home extends Component {
 </svg>
                </div>
              </div>
-             <div className ="logo-section-right">
-               <img className = "layout-right" src = {Union} alt = "img" />  
+                <div className ="logo-section-right">
+                    <img className = "layout-right" src = {Union} alt = "img" />  
+               
           
              </div>
            </div>
